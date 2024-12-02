@@ -1,0 +1,54 @@
+#Contact h2 {
+    font-size: 60px;
+    position: relative;
+}
+#Contact h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    transition: 1s;
+    background-color: white;
+}
+#Contact h2:hover::after {
+    width: 100%;
+}
+
+.forms input {
+    display: block;
+    margin: 20px 0;
+    border-radius: 10px;
+
+}
+.query {
+    padding: 20px 0;
+    border-radius: 20px !important;
+    position: relative;
+    border: none;
+}
+.query::placeholder {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.submit{
+    background-color: rgb(109, 36, 10);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    color: white;
+}
+#Contact {
+    color: white;
+    background-color: rgb(56, 55, 55);
+}
+#Contact ul li {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.navbar {
+    background-color: #f57224;
+}
+.nav-link {
+    color: white !important;
+    font-size: 30px !important;
+}
+.navbar-nav {
+    gap: 30px !important;
+}

@@ -1,0 +1,25 @@
+#Products {
+    padding: 20px 0;
+}
+
+
+.myproducts{
+    transition: 0.5s;
+    gap: 20px !important;
+    margin: 20px 0;
+    position: relative;
+}
+.myproducts:hover{
+    background-color: lightgreen;
+}
+.myproducts button {
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.myproducts button:hover {
+    color: white;
+}
